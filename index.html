@@ -5,25 +5,124 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Yallini Chander | Portfolio</title>
   <style>
-    body { font-family: sans-serif; padding: 2rem; max-width: 800px; margin: auto; line-height: 1.6; }
-    h1, h2 { color: #2c3e50; }
-    a { color: #3498db; text-decoration: none; }
-    a:hover { text-decoration: underline; }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #fdfdfd;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #4b0082;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header img {
+      width: 130px;
+      height: 130px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid white;
+      margin-bottom: 1rem;
+    }
+
+    main {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+    h1, h2 {
+      color: #4b0082;
+    }
+
+    a {
+      color: #4b0082;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .project, .skill {
+      margin-bottom: 1rem;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      background: #4b0082;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-top: 1rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
   </style>
 </head>
 <body>
-  <h1>Hello, I'm Yallini 👩‍💻</h1>
-  <p>A Software Engineer passionate about building reliable and elegant solutions.</p>
+  <header>
+    <img src="profile.jpeg" alt="Yallini Chander" />
+    <h1>Hello, I'm Yallini 👩‍💻</h1>
+    <p>Software Engineer | GPT Chatbot Developer | Full Stack Enthusiast</p>
+  </header>
 
-  <h2>🌟 Projects</h2>
-  <ul>
-    <li><strong>KindMind</strong> – Polite tutoring chatbot powered by GPT (Django)</li>
-    <li><strong>GroceryGo</strong> – Grocery delivery app (Angular + Firebase)</li>
-    <li><strong>Incident Tracker</strong> – Spring Boot-based issue reporting tool</li>
-  </ul>
+  <main>
+    <section id="about">
+      <h2>👩 About Me</h2>
+      <p>I'm a passionate software engineer with experience in backend, frontend, and AI-powered applications. I enjoy building useful tools with beautiful interfaces, and I’m currently pursuing a Master's in Software Engineering.</p>
+    </section>
 
-  <h2>📫 Contact</h2>
-  <p>Email: yalz@example.com</p>
-  <p>GitHub: <a href="https://github.com/yallini" target="_blank">github.com/yallini</a></p>
+    <section id="projects">
+      <h2>💼 Projects</h2>
+      <div class="project">
+        <strong>KindMind</strong> – Polite tutoring chatbot using Django + GPT-4
+      </div>
+      <div class="project">
+        <strong>GroceryGo</strong> – Grocery delivery app using Angular + Firebase
+      </div>
+      <div class="project">
+        <strong>Incident Tracker</strong> – Spring Boot application for issue tracking (Dell project)
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>🛠️ Skills</h2>
+      <div class="skill">Languages: Python, JavaScript, Java, SQL</div>
+      <div class="skill">Frameworks: Django, Spring Boot, Angular, React</div>
+      <div class="skill">Tools: GitHub, Firebase, MySQL, Postman, VS Code</div>
+    </section>
+
+    <section id="resume">
+      <h2>📄 Resume</h2>
+      <p><a href="your-resume.pdf" class="button" target="_blank">Download My Resume</a></p>
+    </section>
+
+    <section id="contact">
+      <h2>📫 Contact</h2>
+      <p>Email: yalz@example.com</p>
+      <p>GitHub: <a href="https://github.com/yallini" target="_blank">github.com/yallini</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/yourname" target="_blank">linkedin.com/in/yourname</a></p>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 Yallini Chander. All rights reserved.
+  </footer>
 </body>
 </html>
+
